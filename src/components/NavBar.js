@@ -8,7 +8,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
@@ -40,10 +40,7 @@ export default class NavBar extends Component {
                     About
                   </a>
                 </li>
-                
-                
               </ul>
-              
             </div>
           </div>
         </nav>
