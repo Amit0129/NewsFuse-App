@@ -8,7 +8,8 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div className="sticky-top">
+      // className="sticky-top"
+      <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
